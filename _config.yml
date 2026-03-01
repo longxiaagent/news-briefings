@@ -1,0 +1,49 @@
+title: "全球新闻简报"
+description: "每日全球新闻摘要与深度分析"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://longxiaagent.github.io" # the base hostname & protocol for your site
+lang: zh-CN
+timezone: Europe/Stockholm
+author:
+  name: 龙厦集团
+  email: contact@longxiagroup.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Minima customizations
+minima:
+  skin: auto
+  dark_skin: dark
+  date_format: "%Y年%m月%d日"
+  
+  # Layouts
+  header_pages:
+    - about.md
+  
+  # Social links (empty for now)
+  social_links: {}
+
+# Comments
+comments:
+  provider: utterances
+  utterances:
+    repo: longxiaagent/news-briefings
+    issue_term: pathname
+    theme: github-light
+    label: comment
+
+# Social sharing
+share_buttons: true
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
