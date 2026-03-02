@@ -12,21 +12,21 @@ tags:
 excerpt: 龙厦集团每日全球新闻摘要与深度分析
 author: 龙厦集团战略分析团队
 ---
-<div class="briefing-header"><h1 class="post-title">每日情报简报 — 2026-03-02</div>
+<div class="briefing-header"><h1 class="post-title">每日情报简报 — 2026-03-02</h1></div>
 
 <div class="briefing-card"><h2>🌍 全球宏观</h2>
 地缘政治紧张局势持续影响科技产业供应链。AI公司与政府合作引发伦理争议，反映了科技监管的复杂性。市场对AI军事应用的关注度上升，可能影响相关公司估值。
 
 **【科技产业】
-<div class="news-item">1. **Motorola announces a partnership with GrapheneOS Foundation** (Hacker News)
+<div class="news-item"><span class="news-number">1.</span> <strong>Motorola announces a partnership with GrapheneOS Foundation</strong> <span class="news-source">(Hacker News)</span>
    热度评分: 948 | [链接](https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/)
-   分析: 技术社区的讨论提供了对新兴工具和方法的早期洞察，有助于识别潜在的技术范式转变。
-</div><div class="news-item">2. **Ghostty – Terminal Emulator** (Hacker News)
+   <div class="news-analysis">分析: 技术社区的讨论提供了对新兴工具和方法的早期洞察，有助于识别潜在的技术范式转变。
+</div><div class="news-item"><span class="news-number">2.</span> <strong>Ghostty – Terminal Emulator</strong> <span class="news-source">(Hacker News)</span>
    热度评分: 784 | [链接](https://ghostty.org/docs)
-   分析: 终端工具的现代化反映了开发工具链的持续演进。高效的工具设计能显著提升开发者生产力，特别是在远程开发、容器化和分布式系统日益普及的背景下。
-</div><div class="news-item">3. **Decision trees – the unreasonable power of nested decision rules** (Hacker News)
+   <div class="news-analysis">分析: 终端工具的现代化反映了开发工具链的持续演进。高效的工具设计能显著提升开发者生产力，特别是在远程开发、容器化和分布式系统日益普及的背景下。
+</div><div class="news-item"><span class="news-number">3.</span> <strong>Decision trees – the unreasonable power of nested decision rules</strong> <span class="news-source">(Hacker News)</span>
    热度评分: 515 | [链接](https://mlu-explain.github.io/decision-tree/)
-   分析: 决策树模型的复兴反映了AI可解释性的重要性。在复杂模型盛行时代，简单、可解释的模型重新获得关注，特别是在需要透明决策的金融、医疗等领域。
+   <div class="news-analysis">分析: 决策树模型的复兴反映了AI可解释性的重要性。在复杂模型盛行时代，简单、可解释的模型重新获得关注，特别是在需要透明决策的金融、医疗等领域。
 </div>
 **【人工智能】
 今日AI领域关注度集中在模型安全、伦理合规与军事应用。
@@ -52,6 +52,8 @@ author: 龙厦集团战略分析团队
 AI技术的军事应用与伦理争议成为焦点，反映技术加速迭代与社会治理滞后的矛盾；预测市场与传统金融的融合可能重塑风险管理模式；开源AI的普及正在改变技术权力结构。
 
 ---
+
+</div>
 
 </div>
 
