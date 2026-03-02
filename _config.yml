@@ -8,8 +8,10 @@ author:
   name: 龙厦集团
   email: contact@longxiagroup.com
 
-# URL设置 - 使用简单清晰的permalink结构
-permalink: /:categories/:year/:month/:day/:title.html
+# URL设置 - 使用简单的英文permalink避免编码问题
+permalink: /:categories/:year/:month/:day/:slug.html
+permalink_defaults:
+  slug: daily-intelligence-briefing
 
 # Build settings
 theme: minima

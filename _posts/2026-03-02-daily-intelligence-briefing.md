@@ -11,7 +11,7 @@ tags:
 - 人工智能
 excerpt: 龙厦集团每日全球新闻摘要与深度分析
 author: 龙厦集团战略分析团队
-permalink: /news-briefings/briefings/2026/03/02/daily-intelligence-briefing.html
+slug: daily-intelligence-briefing
 ---
 <div class="briefing-header"><h1 class="post-title">每日情报简报 — 2026-03-02</div>
 
