@@ -1,0 +1,250 @@
+/* 龙厦集团简报专业样式 */
+:root {
+    --primary-color: #1a237e;      /* 深蓝色 - 专业、权威 */
+    --secondary-color: #283593;    /* 中等蓝色 */
+    --accent-color: #5c6bc0;      /* 强调色 */
+    --text-color: #333333;        /* 主文本 */
+    --light-bg: #f5f7fa;         /* 浅色背景 */
+    --dark-bg: #1e1e2e;          /* 深色背景（暗模式） */
+    --border-color: #e0e0e0;      /* 边框颜色 */
+    --success-color: #2e7d32;     /* 成功/正面 */
+    --warning-color: #f57c00;     /* 警告/关注 */
+    --danger-color: #c62828;      /* 危险/负面 */
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --transition: all 0.3s ease;
+}
+
+/* 基础样式重置 */
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #ffffff;
+}
+
+/* 导航栏 */
+.site-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-title, .site-title:visited {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.site-nav .page-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.site-nav .page-link:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+/* 简报卡片 */
+.briefing-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: var(--card-shadow);
+    border: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.briefing-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* 简报标题 */
+.post-title {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+/* 分类标签 */
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.tag {
+    background: var(--light-bg);
+    color: var(--secondary-color);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.tag:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+/* 内容区域样式 */
+.post-content h2 {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--light-bg);
+}
+
+.post-content h3 {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+/* 新闻条目样式 */
+.news-item {
+    background: var(--light-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.news-title {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.news-meta {
+    display: flex;
+    gap: 16px;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.news-analysis {
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    margin-top: 12px;
+    font-style: italic;
+    color: #555;
+}
+
+/* 关键信号样式 */
+.signal-item {
+    background: linear-gradient(135deg, #fff8e1 0%, #fff3e0 100%);
+    border: 1px solid #ffd54f;
+    border-left: 6px solid #ff9800;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.signal-title {
+    color: #e65100;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.signal-meaning {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* 页脚 */
+.site-footer {
+    background: var(--dark-bg);
+    color: white;
+    padding: 32px 0;
+    margin-top: 48px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-brand {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 24px;
+    transition: var(--transition);
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .post-title {
+        font-size: 1.75rem;
+    }
+    
+    .briefing-card {
+        padding: 16px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+    }
+    
+    .footer-links a {
+        margin: 0 8px;
+    }
+}
+
+/* 暗模式支持 */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-bg);
+        color: #e0e0e0;
+    }
+    
+    .briefing-card {
+        background: #2d2d44;
+        border-color: #3d3d5c;
+    }
+    
+    .post-title {
+        color: #bb86fc;
+    }
+    
+    .news-item {
+        background: #252536;
+    }
+    
+    .news-analysis {
+        background: #2d2d44;
+        color: #b0b0b0;
+    }
+}

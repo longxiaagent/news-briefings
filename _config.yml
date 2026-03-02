@@ -8,10 +8,8 @@ author:
   name: 龙厦集团
   email: contact@longxiagroup.com
 
-# URL设置
-permalink: pretty
-permalink_defaults:
-  categories: briefings
+# URL设置 - 使用简单清晰的permalink结构
+permalink: /briefings/:year/:month/:day/:title.html
 
 # Build settings
 theme: minima
@@ -30,13 +28,6 @@ minima:
   
   # Social links (empty for now)
   social_links: {}
-
-# Permalinks - 确保URL路径正确
-permalink: pretty
-collections:
-  posts:
-    output: true
-    permalink: /:categories/:year/:month/:day/:title.html
 
 # Comments
 comments:
