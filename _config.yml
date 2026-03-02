@@ -8,6 +8,11 @@ author:
   name: 龙厦集团
   email: contact@longxiagroup.com
 
+# URL设置
+permalink: pretty
+permalink_defaults:
+  categories: briefings
+
 # Build settings
 theme: minima
 plugins:
