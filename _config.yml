@@ -1,6 +1,6 @@
 title: "全球新闻简报"
-description: "每日全球新闻摘要与深度分析"
-baseurl: "" # the subpath of your site, e.g. /blog
+description: "龙厦集团每日全球新闻摘要与深度分析"
+baseurl: "/news-briefings" # the subpath of your site
 url: "https://longxiaagent.github.io" # the base hostname & protocol for your site
 lang: zh-CN
 timezone: Europe/Stockholm
@@ -9,7 +9,7 @@ author:
   email: contact@longxiagroup.com
 
 # URL设置 - 使用简单清晰的permalink结构
-permalink: /briefings/:year/:month/:day/:title.html
+permalink: /:categories/:year/:month/:day/:title.html
 
 # Build settings
 theme: minima
@@ -25,6 +25,8 @@ minima:
   # Layouts
   header_pages:
     - about.md
+    - archive.md
+    - search.md
   
   # Social links (empty for now)
   social_links: {}
