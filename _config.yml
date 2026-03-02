@@ -26,6 +26,13 @@ minima:
   # Social links (empty for now)
   social_links: {}
 
+# Permalinks - 确保URL路径正确
+permalink: pretty
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title.html
+
 # Comments
 comments:
   provider: utterances

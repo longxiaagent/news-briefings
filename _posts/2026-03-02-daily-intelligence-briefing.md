@@ -3,7 +3,7 @@ layout: post
 title: '2026-03-02'
 date: 2026-03-02 09:00:00 +0100
 categories:
-- 简报
+- briefings
 tags:
 - 每日简报
 - 全球宏观
@@ -11,6 +11,7 @@ tags:
 - 人工智能
 excerpt: 龙厦集团每日全球新闻摘要与深度分析
 author: 龙厦集团战略分析团队
+permalink: /briefings/2026/03/02/daily-intelligence-briefing.html
 ---
 # 每日情报简报 — 2026-03-02
 
