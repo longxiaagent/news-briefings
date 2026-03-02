@@ -140,7 +140,7 @@ body {
 }
 
 .post-content p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem; /* 从1rem增加到1.5rem */
     line-height: 1.6;
 }
 
@@ -150,7 +150,7 @@ body {
 }
 
 .post-content li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem; /* 从0.5rem增加到1rem */
     line-height: 1.5;
 }
 
