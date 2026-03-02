@@ -77,14 +77,14 @@ body {
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 0.5rem;
-    font-size: 1.5rem; /* 简报头部标题稍大 */
+    font-size: 1.4rem; /* 从1.5rem减小到1.4rem */
 }
 
 /* 简报标题 */
 .post-title {
     color: var(--primary-color);
     font-weight: 700;
-    font-size: 1.75rem; /* 从2rem减小到1.75rem */
+    font-size: 1.6rem; /* 从1.75rem减小到1.6rem */
     margin-bottom: 0.75rem;
     border-bottom: 2px solid var(--accent-color);
     padding-bottom: 0.5rem;
@@ -116,7 +116,7 @@ body {
 
 /* 简报内容区域优化 */
 .post-content {
-    font-size: 1rem; /* 基础字体大小 */
+    font-size: 0.95rem; /* 基础字体大小从1rem减小到0.95rem */
     line-height: 1.6;
     color: #444;
 }
@@ -124,7 +124,7 @@ body {
 .post-content h2 {
     color: var(--primary-color);
     font-weight: 600;
-    font-size: 1.25rem; /* 从1.5rem减小到1.25rem */
+    font-size: 1.15rem; /* 从1.25rem减小到1.15rem */
     margin-top: 1.75rem;
     margin-bottom: 0.75rem;
     padding-bottom: 0.4rem;
@@ -134,7 +134,7 @@ body {
 .post-content h3 {
     color: var(--secondary-color);
     font-weight: 600;
-    font-size: 1.1rem; /* 从1.25rem减小到1.1rem */
+    font-size: 1.05rem; /* 从1.1rem减小到1.05rem */
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
 }

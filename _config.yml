@@ -1,6 +1,6 @@
 title: "全球新闻简报"
 description: "龙厦集团每日全球新闻摘要与深度分析"
-baseurl: "/news-briefings" # the subpath of your site
+baseurl: "/news-briefings" # GitHub Pages项目站点，仓库名即为路径
 url: "https://longxiaagent.github.io" # the base hostname & protocol for your site
 lang: zh-CN
 timezone: Europe/Stockholm
@@ -8,8 +8,8 @@ author:
   name: 龙厦集团
   email: contact@longxiagroup.com
 
-# URL设置 - 使用简单的英文permalink避免编码问题
-permalink: /:categories/:year/:month/:day/:slug.html
+# URL设置 - 简化结构
+permalink: /:year/:month/:day/
 permalink_defaults:
   slug: daily-intelligence-briefing
 
