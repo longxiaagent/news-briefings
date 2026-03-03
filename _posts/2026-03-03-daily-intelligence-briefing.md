@@ -81,10 +81,10 @@ slug: daily-intelligence-briefing
    热度评分: 0 | <a href="https://example.com/wall-street-journal" target="_blank">链接</a>
    <div class="news-analysis">分析: 技术演进的速度继续超过社会适应能力。企业需要在创新速度与社会接受度之间寻找平衡，同时关注监管环境的演变。
 2. **Motorola announces a partnership with GrapheneOS** (Hacker News)
-   热度评分: 2194 | <a href="https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/" target="_blank">链接</a>
+   热度评分: 2258 | <a href="https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/" target="_blank">链接</a>
    <div class="news-analysis">分析: 高热度技术话题通常反映了行业关键趋势或重大突破。这类讨论往往预示着未来1-2年的技术发展方向和投资重点。
-3. **“Microslop” filtered in the official Microsoft Copilot Discord server** (Hacker News)
-   热度评分: 1093 | <a href="https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/" target="_blank">链接</a>
+3. **Meta’s AI smart glasses and data privacy concerns** (Hacker News)
+   热度评分: 1222 | <a href="https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything" target="_blank">链接</a>
    <div class="news-analysis">分析: 高热度技术话题通常反映了行业关键趋势或重大突破。这类讨论往往预示着未来1-2年的技术发展方向和投资重点。
 
 **【人工智能】
@@ -127,7 +127,7 @@ slug: daily-intelligence-briefing
 </div>
 
 **简报属性**：
-- 生成时间：10:42 GMT+1
+- 生成时间：15:32 GMT+1
 - 信息类型：全球宏观深度分析 + 产业趋势洞察
 - 写作视角：全球宏观研究分析师
 - 目标读者：企业战略决策者 / 机构投资者 / 政策制定者
